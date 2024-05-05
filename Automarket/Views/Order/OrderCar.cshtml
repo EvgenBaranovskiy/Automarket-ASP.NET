@@ -1,0 +1,46 @@
+﻿@using Automarket.Domain.Enum
+@model Automarket.Domain.ViewModel.Order.OrderViewModel
+
+@{ ViewData["Title"] = "Створити замовлення"; }
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="row col-md-10">
+                <div class="card card-outline-secondary border border-white">
+                    <div class="card-header">
+                        <h3>Створення замовлення:</h3>
+                        <h4>@Model.CarName @Model.CarModel - @Model.CarPrice$</h4>
+                    </div>
+                    <div class="card-body">
+                        <form asp-controller="Order" asp-action="OrderCar" method="post">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <input type="hidden" asp-for="CarId"    value="@Model.CarId" />
+                            <input type="hidden" asp-for="Username" value="@Context.User.Identity.Name" />
+                            <input type="hidden" asp-for="CarName"  value="@Model.CarName" />
+                            <input type="hidden" asp-for="CarModel" value="@Model.CarModel" />
+                            <input type="hidden" asp-for="CarPrice" value="@Model.CarPrice" />
+
+                            <span>ПІБ: </span>
+                            <div class="form-group">
+                                <input asp-for="PIB" class="form-control text-center" placeholder="ПІБ" type="text" />
+                            </div>
+
+                            <span>Номер телефону: </span>
+                            <div class="form-group">
+                                <input asp-for="Phone" class="form-control text-center" placeholder="Номер телефону" type="text" />
+                            </div>
+
+                            <button class="btn btn-success w-100 mt-3" type="submit">
+                                Створити замовлення
+                            </button>
+                            <a asp-controller="Car" asp-action="GetPage" asp-route-number="1" class="btn btn-primary w-100 mt-1">
+                                Перейти до головної сторінки
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,124 @@
+﻿@using Automarket.Domain.Enum
+@model Automarket.Domain.ViewModel.Car.PageCarsViewModel;
+
+@{
+    ViewData["Title"] = "Головна - повний асортимент";
+}
+
+<div class="car-cards-container">
+    <!--Сортування карток з автомобілями-->
+    <div class="car-sort-panel">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                @Html.DisplayTextFor(Model => Model.CurrentCarSortType)
+            </button>
+            <ul class="dropdown-menu">
+                @foreach (var sortType in Enum.GetValues(typeof(CarSortType)).Cast<CarSortType>())
+                {
+                    <li>
+                        <a class="dropdown-item" asp-action="GetPage"
+                           asp-route-sortType="@sortType"
+                           asp-route-number="@Model.CurrentNumber">
+                           @Html.DisplayTextFor(st => sortType)
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+    </div>
+
+    @foreach (var carVM in Model.Cars)
+    {
+        <div class="car-card-preview">
+            <div class="car-card-img-preview">
+                <img src="@carVM.AvatarImgPath">
+                <div class="car-card-labels">
+                    <div class="car-card-speed">@carVM.Speed km/h</div>
+                    <div class="car-card-price">@carVM.Price$</div>
+                </div>
+            </div>
+            <div class="car-card-text">
+                <h4>@carVM.Name @carVM.Model</h4>
+                <label>
+                    @carVM.ShortDescription
+                </label>
+                <div class="car-card-btn-wrapper">
+                    <a type="button" class="btn btn-primary ms-1"   asp-controller="Car" 
+                                                                    asp-action="GetCar"
+                                                                    asp-route-id="@carVM.Id">
+                        Детальніше
+                    </a>
+                    @if (Context.User.IsInRole("Admin"))
+                    {
+                        <a type="button" class="btn btn-warning" asp-controller="Car" asp-action="EditCar" asp-route-id="@carVM.Id">Редагувати</a>
+                    }
+                    else if (Context.User.IsInRole("Buyer"))
+                    {
+                        <a type="button" class="btn btn-success" asp-controller="Order" asp-action="OrderCar" asp-route-id="@carVM.Id">Замовити</a>
+                    }
+                    else
+                    {
+                        <!--Якщо користувач не авторизованний-->
+                        <a type="button" class="btn btn-success" asp-controller="Account" asp-action="Login">Замовити</a>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<!--Pagination-->
+@{
+    var totalPages = Model.TotalNumber;
+    var currentPage = Model.CurrentNumber;
+
+    Func<int, string> GetPageItemClass = pageNumber =>
+    {
+        return currentPage.Equals(pageNumber) ? "active" : "";
+    };
+
+    // Допоміжна функція для визначення, чи потрібно відобразити елемент сторінки
+    bool ShouldRenderPageItem(int currentPage, int currentNumber, int totalPages)
+    {
+        return Math.Abs(currentPage - currentNumber) <= 1 || currentPage == 1 || currentPage == totalPages;
+    }
+
+    // Допоміжна функція для визначення того, чи потрібно візуалізувати три крапки
+    bool ShouldRenderEllipsis(int currentPage, int currentNumber, int totalPages)
+    {
+        return Math.Abs(currentPage - currentNumber) == 2 && currentPage != 1 && currentPage != totalPages;
+    }
+}
+
+<nav aria-label="..." class="car-pagination">
+    <ul class="pagination">
+        <!-- Previous btn -->
+        <li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
+            <a class="page-link" asp-route-sortType="@Model.CurrentCarSortType" asp-route-number="@(Model.CurrentNumber-1)">Previous</a>
+        </li>
+
+        @if (Model.TotalNumber > 1)
+        {
+            @for (var i = 1; i <= Model.TotalNumber; i++)
+            {
+                if (ShouldRenderPageItem(i, Model.CurrentNumber, Model.TotalNumber))
+                {
+                    <li class="page-item @GetPageItemClass(i)">
+                        <a class="page-link" asp-route-sortType="@Model.CurrentCarSortType" asp-route-number="@i">@i</a>
+                    </li>
+                }
+                else if (ShouldRenderEllipsis(i, Model.CurrentNumber, Model.TotalNumber))
+                {
+                    <li class="page-item">
+                        <a class="page-link disabled">...</a>
+                    </li>
+                }
+            }
+        }
+
+        <!-- Next btn -->
+        <li class="page-item @(Model.HasNextPage ? "" : " disabled")">
+            <a class="page-link" asp-route-sortType="@Model.CurrentCarSortType" asp-route-number="@(Model.CurrentNumber+1)">Next</a>
+        </li>
+    </ul>
+</nav>

@@ -1,0 +1,50 @@
+﻿@model Automarket.Domain.ViewModel.Account.RegistrationViewModel
+
+@{
+    ViewData["Title"] = "Реєстрація";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="row col-md-10">
+                <div class="card card-outline-secondary border border-white">
+
+                    <div class="card-header">
+                        <h3>Реєстрація</h3>
+                    </div>
+
+                    <div class="card-body">
+                        <form asp-controller="Account" asp-action="Registration">
+                           
+                            <div asp-validation-summary="All" class="text-danger"></div>
+
+                            <span>Login: </span>
+                            <div class="form-group">
+                                <input asp-for="Name" class="form-control text-center" placeholder="Логін" type="text" />
+                            </div>
+
+                            <span>Password: </span>
+                            <div class="form-group">
+                                <input asp-for="Password" class="form-control text-center" placeholder="Пароль" type="password" />
+                            </div>
+
+                            <span>Re-enter password: </span>
+                            <div class="form-group">
+                                <input asp-for="PasswordConfirm" class="form-control text-center" placeholder="Пароль підтвердження" type="password" />
+                            </div>
+
+                            <button class="btn btn-success w-100 mt-3" type="submit">
+                                Зареєструватися
+                            </button>
+
+                            <a asp-action="Login" class="btn btn-primary w-100 mt-1">
+                                Перейти до сторінки авторизації
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,163 @@
+﻿@using Automarket.Domain.Enum
+@using System.Reflection
+@using System.ComponentModel.DataAnnotations
+@model Automarket.Domain.ViewModel.Order.PageOrdersViewModel;
+
+@{
+	if (Context.User.IsInRole("Admin"))
+	{
+		ViewData["Title"] = "Замовлення користувачів";
+	}
+	else
+	{
+		ViewData["Title"] = "Мої замовлення";
+	}
+}
+
+@*Таблиця для покупця*@
+@if (User.IsInRole("Buyer"))
+{
+<table class="table table-bordered">
+	<thead>
+		<tr>
+			<th class="text-center" scope="col">#</th>
+			<th class="text-center" scope="col">Автомобіль</th>
+			<th class="text-center" scope="col">ПІБ</th>
+			<th class="text-center" scope="col">Номер телефону</th>
+			<th class="text-center" scope="col">Статус</th>
+			<th class="text-center" scope="col">Дата</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach (Automarket.Domain.ViewModel.Order.OrderViewModel order in Model.Orders)
+		{
+			string orderStatus = typeof(OrderStatus)
+			.GetMember(order.Status.ToString())
+			.FirstOrDefault()?
+			.GetCustomAttribute<DisplayAttribute>()
+			?.GetName();
+
+			<tr>
+				<td scope="row">@order.OrderId</td>
+				<td>@order.CarName @order.CarModel - @order.CarPrice$</td>
+				<td>@order.PIB</td>
+				<td>@order.Phone</td>
+				<td>@orderStatus</td>
+				<td>@order.Date.ToString("dd/MM/yyyy HH:mm:ss")</td>
+			</tr>
+		}
+	</tbody>
+</table>
+}
+
+@*Таблиця для адміністратора*@
+@if (User.IsInRole("Admin"))
+{
+	<table class="table table-bordered">
+		<thead>
+			<tr>
+				<th class="text-center" scope="col">#</th>
+				<th class="text-center" scope="col">Користувач</th>
+				<th class="text-center" scope="col">Автомобіль</th>
+				<th class="text-center" scope="col">ПІБ</th>
+				<th class="text-center" scope="col">Номер телефону</th>
+				<th class="text-center" scope="col">Статус</th>
+				<th class="text-center" scope="col">Дата</th>
+				<th class="text-center" scope="col">Зберегти</th>
+				<th class="text-center" scope="col">Видалити</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (Automarket.Domain.ViewModel.Order.OrderViewModel order in Model.Orders)
+			{
+				<tr>
+					<form asp-controller="Order" asp-action="UpdateStatus" method="post">
+						<input type="hidden" name="orderId" value="@order.OrderId" />
+						<input type="hidden" name="page" value="@Model.CurrentNumber" />
+						<td scope="row">@order.OrderId</td>
+						<td>@order.Username</td>
+						<td>@order.CarName @order.CarModel - @order.CarPrice$</td>
+						<td>@order.PIB</td>
+						<td>@order.Phone</td>
+						<td>
+							<select name="newStatus" asp-for="@order.Status">
+							@foreach (var status in Enum.GetValues(typeof(Automarket.Domain.Enum.OrderStatus)))
+							{
+								<option>@status</option>
+							}
+							</select>	
+						</td>
+						<td>@order.Date.ToString("dd/MM/yyyy HH:mm:ss")</td>
+						<td>
+							<button class="btn btn-warning">Зберегти</button>
+						</td>
+					</form>
+					<form asp-controller="Order" asp-action="DeleteOrder" method="post">
+					<td>
+						<input type="hidden" name="orderId" value="@order.OrderId"/>
+						<input type="hidden" name="page" value="@Model.CurrentNumber"  />
+						<button class="btn btn-danger">Видалити</button>
+					</td>
+					</form>
+				</tr>
+				
+			}
+		</tbody>
+	</table>
+}
+
+<!--Pagination-->
+@{
+	var totalPages = Model.TotalNumber;
+	var currentPage = Model.CurrentNumber;
+
+	Func<int, string> GetPageItemClass = pageNumber =>
+	{
+		return currentPage.Equals(pageNumber) ? "active" : "";
+	};
+
+	// Допоміжна функція для визначення, чи потрібно відобразити елемент сторінки
+	bool ShouldRenderPageItem(int currentPage, int currentNumber, int totalPages)
+	{
+		return Math.Abs(currentPage - currentNumber) <= 1 || currentPage == 1 || currentPage == totalPages;
+	}
+
+	// Допоміжна функція для визначення того, чи потрібно візуалізувати три крапки
+	bool ShouldRenderEllipsis(int currentPage, int currentNumber, int totalPages)
+	{
+		return Math.Abs(currentPage - currentNumber) == 2 && currentPage != 1 && currentPage != totalPages;
+	}
+}
+
+<nav aria-label="..." class="car-pagination">
+	<ul class="pagination">
+		<!-- Previous btn -->
+		<li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
+			<a class="page-link" asp-route-page="@(Model.CurrentNumber-1)">Previous</a>
+		</li>
+
+		@if (Model.TotalNumber > 1)
+		{
+			@for (var i = 1; i <= Model.TotalNumber; i++)
+			{
+				if (ShouldRenderPageItem(i, Model.CurrentNumber, Model.TotalNumber))
+				{
+					<li class="page-item @GetPageItemClass(i)">
+						<a class="page-link" asp-route-page="@i">@i</a>
+					</li>
+				}
+				else if (ShouldRenderEllipsis(i, Model.CurrentNumber, Model.TotalNumber))
+				{
+					<li class="page-item">
+						<a class="page-link disabled">...</a>
+					</li>
+				}
+			}
+		}
+
+		<!-- Next btn -->
+		<li class="page-item @(Model.HasNextPage ? "" : " disabled")">
+			<a class="page-link" asp-route-page="@(Model.CurrentNumber+1)">Next</a>
+		</li>
+	</ul>
+</nav>

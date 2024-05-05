@@ -1,0 +1,128 @@
+﻿@model Automarket.Domain.ViewModel.Car.CarViewModel;
+
+@{
+	ViewData["Title"] = "Редагування автомобіля";
+}
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="row justify-content-center">
+			<div class="row col-md-10">
+				<div class="card card-outline-secondary border border-white">
+					<div class="card-header">
+						<h3>Редагування автомобіля</h3>
+					</div>
+					<div class="card-body">
+                        <form method="post" enctype="multipart/form-data">
+                            <div asp-validation-summary="All" class="text-danger"></div>
+                            <fieldset>
+                                <label for="AvatarImage">Avatar image:</label>
+                                <br />
+                                <img id="imagePreview" src="@Model.AvatarImgPath" alt="Preview" style="max-width: 200px; max-height: 200px; margin-bottom: 20px;" />
+                                <br />
+                                <input type="file" name="AvatarImage" id="AvatarImage" onchange="previewImage(event, 'imagePreview')" />
+                            </fieldset>
+                            <div class="form-group">
+                                <label for="name">Name:</label>
+                                <input type="text" class="form-control" id="name" name="Name" value="@Model.Name" maxlength="50">
+                            </div>
+                            <div class="form-group">
+                                <label for="model">Model:</label>
+                                <input type="text" class="form-control" id="model" name="Model" value="@Model.Model" maxlength="50">
+                            </div>
+                            <div class="form-group">
+                                <label for="shortDescription">Short Description:</label>
+                                <input type="text" class="form-control" id="shortDescription" name="ShortDescription" value="@Model.ShortDescription" maxlength="250">
+                            </div>
+                            <div class="form-group">
+                                <label for="fullDescription">Full Description:</label>
+                                <textarea class="form-control" id="fullDescription" name="FullDescription" maxlength="750" rows="8">@Model.FullDescription</textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="speed">Speed:</label>
+                                <input type="number" class="form-control" id="speed" name="Speed" value="@Model.Speed">
+                            </div>
+                            <div class="form-group">
+                                <label for="price">Price:</label>
+                                <input type="number" class="form-control" id="price" name="Price" value="@Model.Price">
+                            </div>
+                            <div class="form-group">
+                                <label for="typeCar">Type:</label>
+                                <select class="form-control" id="typeCar" name="TypeCar" asp-for="@Model.TypeCar">
+                                    @foreach (var typeCar in Enum.GetValues(typeof(Automarket.Domain.Enum.TypeCar)))
+                                    {
+                                        <option value="@typeCar">
+                                            @((Automarket.Domain.Enum.TypeCar)typeCar)
+                                        </option>
+                                    }
+                                </select>
+                            </div>
+                            <br/>   
+                            <div class="previewSliderImages">
+                                @if (Model?.SliderPathImages != null)
+                                {
+                                    foreach (var img in Model.SliderPathImages)
+                                    {
+                                        <img src="@img.ImgPath" alt="Preview @img.Id" style="max-width: 200px; max-height: 200px; margin-bottom: 20px;" />
+                                    }
+                                }
+                            </div>
+                            <fieldset>
+                                <br />
+                                <input type="file" name="SliderImages" id="SliderImages" multiple />
+                            </fieldset>
+                            <br />
+                            <button type="submit" class="btn btn-primary w-100">Save</button>
+                        </form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script>
+    function previewImage(event, targetId) {
+        var reader = new FileReader();
+        var image = document.getElementById(targetId);
+
+        reader.onload = function () {
+            if (reader.readyState == 2) {
+                image.src = reader.result;
+            }
+        }
+
+        reader.readAsDataURL(event.target.files[0]);
+    }
+
+    document.getElementById('AvatarImage').addEventListener('change', function (event) {
+        previewImage(event, 'imagePreview');
+    });
+
+    document.getElementById('SliderImages').addEventListener('change', function (event) {
+        var files = event.target.files;
+        var previewImages = document.querySelector('.previewSliderImages');
+
+        previewImages.innerHTML = '';
+
+        for (var i = 0; i < files.length; i++) {
+            var file = files[i];
+            var reader = new FileReader();
+
+            var imgElement = document.createElement('img');
+            imgElement.style.maxWidth = '200px';
+            imgElement.style.maxHeight = '200px';
+            imgElement.style.marginBottom = '20px';
+
+            reader.onload = (function (img) {
+                return function (e) {
+                    img.src = e.target.result;
+                };
+            })(imgElement);
+
+            reader.readAsDataURL(file);
+
+            previewImages.appendChild(imgElement);
+        }
+    });
+</script>

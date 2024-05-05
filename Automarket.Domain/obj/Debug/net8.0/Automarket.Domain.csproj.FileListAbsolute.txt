@@ -1,0 +1,36 @@
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.deps.json
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.AssemblyInfoInputs.cache
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.AssemblyInfo.cs
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\refint\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Evgen\Desktop\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\ref\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.deps.json
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.AssemblyInfoInputs.cache
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.AssemblyInfo.cs
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\refint\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\ref\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\test4\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.csproj.AssemblyReference.cache
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.deps.json
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\bin\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.csproj.AssemblyReference.cache
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.AssemblyInfoInputs.cache
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.AssemblyInfo.cs
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.sourcelink.json
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\refint\Automarket.Domain.dll
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\Automarket.Domain.pdb
+C:\Users\Evgen\Desktop\курсовая 2 семестр 2й курс\ASP TEST\ASP TEST\Automarket ASP.NET\Automarket-ASP.NET\Automarket.Domain\obj\Debug\net8.0\ref\Automarket.Domain.dll

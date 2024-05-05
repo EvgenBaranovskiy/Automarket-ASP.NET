@@ -1,0 +1,53 @@
+﻿@model Automarket.Domain.ViewModel.Account.LoginViewModel
+
+@{
+    ViewData["Title"] = "Авторизація";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="row col-md-10">
+                <div class="card card-outline-secondary border border-white">
+                    <div class="card-header">
+                        <h3>Авторизація</h3>
+                    </div>
+                    <div class="card-body">
+                        <form asp-controller="Account" asp-action="Login">
+                            @if (Model?.ShowMessageSuccessRegistration == true)
+                            {
+                                Model.ShowMessageSuccessRegistration = false;
+                                
+                                <div class="alert alert-success" role="alert">
+                                    Вітаю! Ваш обліковий запис успішно створено!
+                                </div>
+                            }
+                            else
+                            {
+                                <div asp-validation-summary="All" class="text-danger"></div>
+                            }
+                            
+                            <span>Login: </span>
+                            <div class="form-group">
+                                <input asp-for="Name" class="form-control text-center" value="@Model?.Name" placeholder="Логін" type="text" />
+                            </div>
+
+                            <span>Password: </span>
+                            <div class="form-group">
+                                <input asp-for="Password" class="form-control text-center" placeholder="Пароль" type="password" />
+                            </div>
+
+                            <button class="btn btn-success w-100 mt-3" type="submit">
+                                Авторизуватися
+                            </button>
+
+                            <a asp-action="Registration" class="btn btn-primary w-100 mt-1">
+                                Перейти до сторінки реєстрації
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

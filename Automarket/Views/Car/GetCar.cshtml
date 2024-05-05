@@ -1,0 +1,87 @@
+﻿@using Automarket.Domain.Enum
+@using System.ComponentModel.DataAnnotations
+@using System.Reflection
+@model Automarket.Domain.ViewModel.Car.CarViewModel
+
+@{
+	ViewData["Title"] = $"{@Model.Name} {@Model.Model}";
+
+	string typeCar = typeof(TypeCar)
+		.GetMember(Model.TypeCar.ToString())
+		.FirstOrDefault()?
+		.GetCustomAttribute<DisplayAttribute>()
+		?.GetName();
+
+}
+
+<div class="container">
+	<div class="row">
+		<h1>@Model.Name @Model.Model</h1>
+	</div>
+	<div class="row">
+		<div class="col-5">
+			<div class="card">
+				<img src="@Model.AvatarImgPath" />
+			</div>
+			<div class="card mt-1">
+				@if (Context.User.IsInRole("Admin"))
+				{
+					<a type="button" class="btn btn-warning"	asp-controller="Car"
+																asp-action="EditCar"
+																asp-route-id="@Model.Id">
+															Редагувати
+					</a>
+					<a type="button" class="btn btn-danger mt-1" asp-controller="Car"
+					   asp-action="Delete"
+					   asp-route-id="@Model.Id">
+					   Видалити
+					</a>
+				}
+				else if (Context.User.IsInRole("Buyer"))
+				{
+					<a type="button" class="btn btn-success" asp-controller="Order" asp-action="OrderCar" asp-route-id="@Model.Id">Замовити</a>
+				}
+				else
+				{
+					<!--Якщо користувач не авторизованний-->
+					<a type="button" class="btn btn-success" asp-controller="Account" asp-action="Login">Замовити</a>
+				}
+			</div>
+		</div>
+		<div class="col-7">
+			@Model.FullDescription<br />
+			<hr class="my-12" />
+			<div class="d-flex flex-row-reverse" style="gap: 2px">
+				<span class="badge bg-success">@Model.Price$</span>
+				<span class="badge bg-primary">@Model.Speed km/h</span>
+				<span class="badge bg-info">@Model.DateCreate.ToShortDateString()</span>
+				<span class="badge bg-body">@typeCar </span>
+			</div>
+		</div>
+	</div>
+	<hr class="my-12" />
+
+	<div class="row">
+		@if (Model.SliderPathImages.Count > 0)
+		{
+			<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					@foreach (var carImg in Model.SliderPathImages)
+					{
+						<div class="carousel-item @(carImg.Id == Model.SliderPathImages[0].Id ? "active" : "")">
+							<img class="d-block w-100" src="@carImg.ImgPath" alt="@carImg.Id">
+						</div>
+					}
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		}
+	</div>
+</div>

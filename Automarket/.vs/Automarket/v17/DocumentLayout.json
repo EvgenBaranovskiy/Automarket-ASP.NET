@@ -1,0 +1,715 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\car\\getcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\car\\getcar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:controllers\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\account\\registration.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|c:\\users\\evgen\\desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\asp test\\asp test\\automarket asp.net\\automarket-asp.net\\automarket\\views\\order\\getorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C240DC94-824E-4BDE-947A-9C07635A6EF6}|Automarket.csproj|solutionrelative:views\\order\\getorders.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\ViewModel\\Car\\PageCarsViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Utils\\CarServiceHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Utils\\OrderServiceHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\CarService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\ICarService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\ViewModel\\Car\\CarViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\OrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\FileRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Interfaces\\ICarRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\ApplicationDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\IOrderService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\OrderRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\CarRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\BaseRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Response\\IBaseInterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Response\\BaseResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\UserRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\TypeCar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\StatusCode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\OrderStatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\CarSortType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\Order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\CarImage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\Car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 381,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetCar.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Car\\GetCar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Car\\GetCar.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Car\\GetCar.cshtml",
+              "RelativeToolTip": "Views\\Car\\GetCar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T07:49:52.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-05T07:31:47.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-05T07:31:23.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-11T12:52:41.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T05:34:17.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T05:34:19.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAgwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:26:16.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T05:22:02.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CarController.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Controllers\\CarController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarController.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Controllers\\CarController.cs",
+              "RelativeToolTip": "Controllers\\CarController.cs",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAYwH8AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T18:07:18.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PageCarsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\ViewModel\\Car\\PageCarsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\ViewModel\\Car\\PageCarsViewModel.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\ViewModel\\Car\\PageCarsViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\ViewModel\\Car\\PageCarsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:25:33.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CarServiceHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Utils\\CarServiceHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Utils\\CarServiceHelper.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Utils\\CarServiceHelper.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Utils\\CarServiceHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:25:24.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-04T17:28:12.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderServiceHelper.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Utils\\OrderServiceHelper.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Utils\\OrderServiceHelper.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Utils\\OrderServiceHelper.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Utils\\OrderServiceHelper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:25:23.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGEAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:19:09.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Implementations\\UserService.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\UserService.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Implementations\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T07:20:27.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CarService.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\CarService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Implementations\\CarService.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\CarService.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Implementations\\CarService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAKwAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T03:31:00.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICarService.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\ICarService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Interfaces\\ICarService.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\ICarService.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Interfaces\\ICarService.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAgwA8AAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:51:23.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CarViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\ViewModel\\Car\\CarViewModel.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\ViewModel\\Car\\CarViewModel.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\ViewModel\\Car\\CarViewModel.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\ViewModel\\Car\\CarViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:42:51.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFcAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T05:02:10.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAqwEUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:39:00.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:51:25.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\OrderService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Implementations\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Implementations\\OrderService.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Implementations\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAH4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:35:26.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T04:39:09.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Registration.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Account\\Registration.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Registration.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Account\\Registration.cshtml",
+              "RelativeToolTip": "Views\\Account\\Registration.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-05T04:39:11.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FileRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\FileRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\FileRepository.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\FileRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\FileRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:44:08.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Interfaces\\ICarRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\Interfaces\\ICarRepository.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Interfaces\\ICarRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\Interfaces\\ICarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:55:54.417Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:16:44.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Service\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Service\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Service\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:41:08.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:27:49.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T16:34:38.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CarRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\CarRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\CarRepository.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\CarRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\CarRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:25:39.862Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.DAL\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.DAL\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T13:25:35.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "IBaseInterface.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Response\\IBaseInterface.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Response\\IBaseInterface.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Response\\IBaseInterface.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Response\\IBaseInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:38:01.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Response\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Response\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Response\\BaseResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Response\\BaseResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T12:37:58.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\UserRole.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\UserRole.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\UserRole.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:18:11.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "TypeCar.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\TypeCar.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\TypeCar.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\TypeCar.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\TypeCar.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:18:07.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "StatusCode.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\StatusCode.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\StatusCode.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\StatusCode.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\StatusCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:18:05.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:18:02.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CarSortType.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\CarSortType.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\CarSortType.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Enum\\CarSortType.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Enum\\CarSortType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:18:00.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\User.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:17:30.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\Order.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\Order.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\Order.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\Order.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAiwBYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:17:25.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "CarImage.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\CarImage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\CarImage.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\CarImage.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\CarImage.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAsAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-04T11:17:18.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\Car.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\Car.cs",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\test4\\Automarket.Domain\\Entity\\Car.cs",
+              "RelativeToolTip": "..\\..\\..\\test4\\Automarket.Domain\\Entity\\Car.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:01:27.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetOrders.cshtml",
+              "DocumentMoniker": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Order\\GetOrders.cshtml",
+              "RelativeDocumentMoniker": "Views\\Order\\GetOrders.cshtml",
+              "ToolTip": "C:\\Users\\Evgen\\Desktop\\\u043A\u0443\u0440\u0441\u043E\u0432\u0430\u044F 2 \u0441\u0435\u043C\u0435\u0441\u0442\u0440 2\u0439 \u043A\u0443\u0440\u0441\\ASP TEST\\ASP TEST\\Automarket ASP.NET\\Automarket-ASP.NET\\Automarket\\Views\\Order\\GetOrders.cshtml",
+              "RelativeToolTip": "Views\\Order\\GetOrders.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAFIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T08:21:47.676Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 19,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
